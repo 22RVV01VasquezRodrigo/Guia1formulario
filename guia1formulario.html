@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head><title></title>
+</head>
+<body>
+	<h1>Prueba de Formulario</h1>
+	<form method="get">
+    Nombre:<input type=text name=nombre size=10><br>
+    Apellidos:<input type=text name=apellidos size=30><br>
+    Clave:<input type=password name=pass size=8><br>
+    <hr>
+    Sexo:<br>
+    <input type="radio" name="sexo">Hombre
+    <input type="radio" name="sexo">Mujer
+    <br>
+    Aficiones:<br>
+    <input type="checkbox" name="deportes">Deportes
+    <input type="checkbox" name="musica">Música
+    <input type="checkbox" name="lectura">Lectura
+    <br>
+    Procedencia:<br>
+    <select name="procedencia">
+    	<option>África
+    		<option>Antártida
+    			<option>América
+    				<option>Asia
+    					<option>Europa
+    						<option>Oceanía
+    </select>
+    <hr>
+    ¿Dónde le gustaría viajar?:<br>
+    <select name="destino" multiple size=4>
+        <option>África
+            <option>Antártida
+                <option>América
+                    <option>Asia
+                        <option>Europa
+                            <option>Oceanía
+    </select>
+    <br>
+    Opine:
+    <br>
+    <textarea cols=25 rows=10 name="opina">
+    ¡Escriba aquí su opinión!
+    </textarea>
+    <hr>
+    <input type=submit> <input type=reset>
+    </form>
